@@ -67,3 +67,13 @@ npm start
 ```
 http://localhost:3000/
 ```
+
+## Built With
+
+- Python - Backend programming language
+- Flask - Web framework for Python
+- React - Frontend JavaScript library
+- OpenCDS - Clinical decision support system
+- CQL - Clinical Quality Language
+- ECL - Expression Constraint Language
+- Firebase - Cloud services platform
