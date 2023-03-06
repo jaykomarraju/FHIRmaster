@@ -41,3 +41,29 @@ npm install
     - Click on the "Generate new private key" button to download the JSON key file.
     - Rename the key file to firebase-credentials.json and copy it to the backend directory.
     - Edit the backend/config.py file and replace the <PROJECT_ID> placeholder with your Firebase project ID.
+
+
+
+## Running
+
+1. Start the backend:
+
+```
+cd backend
+
+python app.py
+```
+
+2. Start the frontend:
+
+```
+cd ../frontend
+
+npm start
+```
+
+3. Open the application in your browser:
+
+```
+http://localhost:3000/
+```
