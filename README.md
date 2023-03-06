@@ -77,3 +77,6 @@ http://localhost:3000/
 - CQL - Clinical Quality Language
 - ECL - Expression Constraint Language
 - Firebase - Cloud services platform
+
+Authors
+Jay Komarraju - Initial work - [jaykomarraju](https://github.com/jaykomarraju)
