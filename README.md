@@ -13,7 +13,9 @@ These instructions will get you a copy of the project up and running on your loc
 ## Installing
 - Clone the repository:
 
-`git clone https://github.com/yourusername/FHIRmaster.git`
+```
+git clone https://github.com/yourusername/FHIRmaster.git
+```
 
 - Install the Python dependencies:
 
@@ -25,7 +27,8 @@ pip install -r requirements.txt
 
 - Install the React dependencies:
 
-`cd ../frontend
+```
+cd ../frontend
 
 npm install
-`
+```
