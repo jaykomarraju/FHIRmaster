@@ -35,6 +35,7 @@ npm install
 ```
 
 4. Create a Firebase project and configure the credentials:
+
     - Go to the Firebase console and create a new project.
     - Click on the "Project settings" gear icon and then on the "Service accounts" tab.
     - Click on the "Generate new private key" button to download the JSON key file.
