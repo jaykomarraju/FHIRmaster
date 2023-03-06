@@ -32,3 +32,10 @@ cd ../frontend
 
 npm install
 ```
+
+- Create a Firebase project and configure the credentials:
+    - Go to the Firebase console and create a new project.
+    - Click on the "Project settings" gear icon and then on the "Service accounts" tab.
+    - Click on the "Generate new private key" button to download the JSON key file.
+    - Rename the key file to firebase-credentials.json and copy it to the backend directory.
+    - Edit the backend/config.py file and replace the <PROJECT_ID> placeholder with your Firebase project ID.
