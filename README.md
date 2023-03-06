@@ -18,11 +18,13 @@ These instructions will get you a copy of the project up and running on your loc
 - Install the Python dependencies:
 
 `cd FHIRmaster/backend
+
 pip install -r requirements.txt
 `
 
 - Install the React dependencies:
 
 `cd ../frontend
+
 npm install
 `
