@@ -11,13 +11,14 @@ These instructions will get you a copy of the project up and running on your loc
 - Firebase account and project
 
 ## Installing
-- Clone the repository:
+
+1. Clone the repository:
 
 ```
 git clone https://github.com/yourusername/FHIRmaster.git
 ```
 
-- Install the Python dependencies:
+2. Install the Python dependencies:
 
 ```
 cd FHIRmaster/backend
@@ -25,7 +26,7 @@ cd FHIRmaster/backend
 pip install -r requirements.txt
 ```
 
-- Install the React dependencies:
+3. Install the React dependencies:
 
 ```
 cd ../frontend
@@ -33,7 +34,7 @@ cd ../frontend
 npm install
 ```
 
-- Create a Firebase project and configure the credentials:
+4. Create a Firebase project and configure the credentials:
     - Go to the Firebase console and create a new project.
     - Click on the "Project settings" gear icon and then on the "Service accounts" tab.
     - Click on the "Generate new private key" button to download the JSON key file.
