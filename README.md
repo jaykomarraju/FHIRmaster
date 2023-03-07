@@ -21,7 +21,7 @@ To install FLIRmaster, follow these steps:
 ## Usage
 
 - Once the server is running,
-	- you can access the FLIRmaster web application by navigating to http://localhost:3000 in your web browser.```
+	- you can access the FLIRmaster web application by navigating to http://localhost:3000 in your web browser.
 - To use the application, 
 	- log in with your credentials and navigate to the desired feature, such as patient management or clinical decision support. From there, you can access and manage patient data, view potential diagnoses and treatments, and generate reports and analytics.
 
