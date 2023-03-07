@@ -1,90 +1,37 @@
-# FHIRmaster
+# FLIRmaster
 
-FHIRmaster is a clinical decision support system that leverages FHIR and SNOMED CT to identify potential diagnoses and treatments based on patient data. It uses a Bayesian network to update the probabilities associated with each node and then calculates the probability of each potential diagnosis and treatment based on the updated probabilities. The system is built using Python, Flask, React, OpenCDS, CQL, ECL, and Firebase.
+FLIRmaster is a web application that provides a clinical decision support system for healthcare providers. It leverages the FHIR standard to integrate with electronic health records and provides clinicians with potential diagnoses and treatments based on patient data. With the integration of claim data for insurance, FLIRmaster can help reduce the cost of care for patients and providers by identifying cost-effective treatments and reducing unnecessary tests and procedures.
 
+## Features
 
-## Getting Started
+FLIRmaster offers a suite of features to help healthcare providers and organizations access, manage, and analyze health data, including:
+- Patient management: Allows healthcare providers to access patient records, update patient information, and manage patient care plans.
+- Clinical decision support: Provides potential diagnoses and treatments based on patient data, helping healthcare providers make more informed decisions about patient care.
+- Analytics and reporting: Offers insights into patient data through analytics and reporting tools, enabling healthcare providers to identify trends and patterns in patient care.
+- Interoperability tools: Integrates with electronic health records, medical devices, wearables, and other health-related systems, providing a comprehensive solution for healthcare providers to manage patient data.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Installation
 
+To install FLIRmaster, follow these steps:
+- Clone the repository: ```git clone https://github.com/FLIRmaster.git```
+- Install the required dependencies: ```npm install```
+- Configure the environment variables: ```Create a .env file and set the required environment variables, such as the database connection string, FHIR server URL, and API key.```
+- Start the server: ```npm start```
 
-## Prerequisites
+## Usage
 
-- Python 3.7 or higher
-- Node.js 14.0 or higher
-- npm 6.14 or higher
-- Firebase account and project
+- Once the server is running,
+	- you can access the FLIRmaster web application by navigating to http://localhost:3000 in your web browser.```
+- To use the application, 
+	- log in with your credentials and navigate to the desired feature, such as patient management or clinical decision support. From there, you can access and manage patient data, view potential diagnoses and treatments, and generate reports and analytics.
 
+## Contributing
 
-## Installing
+If you would like to contribute to FLIRmaster, please follow these steps:
+- Fork the repository: Click the "Fork" button in the top right corner of the repository page.
+- Clone the forked repository: git clone https://github.com/YOUR_USERNAME/FLIRmaster.git
+- Create a new branch: git checkout -b feature-name
+- Make your changes and commit them: git commit -m "Description of changes"
+- Push your changes to your forked repository: git push origin feature-name
+- Create a pull request: Navigate to your forked repository on GitHub, click the "New pull request" button, and follow the instructions.
 
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/FHIRmaster.git
-```
-
-2. Install the Python dependencies:
-
-```
-cd FHIRmaster/backend
-
-pip install -r requirements.txt
-```
-
-3. Install the React dependencies:
-
-```
-cd ../frontend
-
-npm install
-```
-
-4. Create a Firebase project and configure the credentials:
-
-    - Go to the Firebase console and create a new project.
-    - Click on the "Project settings" gear icon and then on the "Service accounts" tab.
-    - Click on the "Generate new private key" button to download the JSON key file.
-    - Rename the key file to firebase-credentials.json and copy it to the backend directory.
-    - Edit the backend/config.py file and replace the <PROJECT_ID> placeholder with your Firebase project ID.
-
-
-## Running
-
-1. Start the backend:
-
-```
-cd backend
-
-python app.py
-```
-
-2. Start the frontend:
-
-```
-cd ../frontend
-
-npm start
-```
-
-3. Open the application in your browser:
-
-```
-http://localhost:3000/
-```
-
-
-## Built With
-
-- Python - Backend programming language
-- Flask - Web framework for Python
-- React - Frontend JavaScript library
-- OpenCDS - Clinical decision support system
-- CQL - Clinical Quality Language
-- ECL - Expression Constraint Language
-- Firebase - Cloud services platform
-
-
-## Authors
-
-Jay Komarraju - Initial work - [jaykomarraju](https://github.com/jaykomarraju)
